@@ -1,0 +1,15 @@
+{
+    //ES6转ES5
+    presets:[
+        ["@babel/preset-env",{
+        //项目运行打下环境
+        target:{
+            edge:"17",
+            firefox:"60",
+            chrome:"67",
+            safari:"11.1"
+        },
+                 //只打包需要的
+        useBuiltInd:'usage'}],
+        ["@babel/preset-react"]]
+}
