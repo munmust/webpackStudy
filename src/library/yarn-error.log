@@ -1,0 +1,38 @@
+Arguments: 
+  G:\Node\node.exe G:\Node\node_global\node_modules\yarn\bin\yarn.js add webpack webpack-cli -D
+
+PATH: 
+  C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\javaSDK\bin;C:\WINDOWS\System32\OpenSSH\;F:\CodeBlock\CodeBlocks\MinGW\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\TortoiseGit\bin;G:\git\Git\cmd;G:\Node\;G:\Node\node_global;G:\Node\node_global\node_modules\yarn\bin;C:\Users\Administrator\AppData\Local\Yarn\Data\global\node_modules\.bin;G:\Node\node_global\node_modules\yarn\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;G:\WebStrom\WebStorm 2018.3.3\bin;G:\Microsoft VS Code\bin;D:\Bandizip\;C:\Users\Administrator\AppData\Roaming\npm;G:\Node\node_global;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 220.250.64.20:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+
+npm manifest: 
+  {
+    "name": "library",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
